@@ -1,0 +1,10 @@
+### Starting build.
+# Target: ch2_ex14.ml.depends, tags: { extension:ml, file:ch2_ex14.ml, ocaml, ocamldep, quiet }
+/home/benhalstd/.opam/4.08.1/bin/ocamldep.opt -modules ch2_ex14.ml > ch2_ex14.ml.depends
++ /home/benhalstd/.opam/4.08.1/bin/ocamldep.opt -modules ch2_ex14.ml > ch2_ex14.ml.depends
+File "ch2_ex14.ml", line 8, characters 27-38:
+8 | assert (abs_float(divide3 (~numerator:5.0) (~denomenator:2.5) -. 2.0) < 0.01);
+                               ^^^^^^^^^^^
+Error: Syntax error: operator expected.
+Command exited with code 2.
+# Compilation unsuccessful.
