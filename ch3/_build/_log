@@ -1,0 +1,8 @@
+### Starting build.
+# Target: ch3_ex3.ml.depends, tags: { extension:ml, file:ch3_ex3.ml, ocaml, ocamldep, quiet }
+/home/benhalstd/.opam/4.08.1/bin/ocamldep.opt -modules ch3_ex3.ml > ch3_ex3.ml.depends
+# Target: ch3_ex3.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ch3_ex3.cmo, file:ch3_ex3.ml, implem, ocaml, quiet }
+/home/benhalstd/.opam/4.08.1/bin/ocamlc.opt -c -o ch3_ex3.cmo ch3_ex3.ml
+# Target: ch3_ex3.byte, tags: { byte, dont_link_with, extension:byte, file:ch3_ex3.byte, link, ocaml, program, quiet }
+/home/benhalstd/.opam/4.08.1/bin/ocamlc.opt ch3_ex3.cmo -o ch3_ex3.byte
+# Compilation successful.
