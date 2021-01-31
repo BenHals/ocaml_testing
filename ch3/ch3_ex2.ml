@@ -11,3 +11,7 @@ let rec product2 = function
 in
 assert (product2 (1::2::3::[]) = 6);
 assert (product2 (1::2::3::4::[]) = 24);
+let rec product_exp l =
+    match l with
+        | [] -> 1
+        | h::t -> h * product_exp t
